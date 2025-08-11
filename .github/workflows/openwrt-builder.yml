@@ -39,8 +39,7 @@ luci-proto-qmi kmod-usb-net-qmi-wwan uqmi usb-modeswitch kmod-usb-serial-option 
 ppp ppp-mod-pppoe \
 kmod-usb2 kmod-usb-ohci \
 block-mount kmod-fs-ext4 \
-luci-compat luci-lib-ipkg \
-"
+luci-compat luci-lib-ipkg"
 
       - name: Upload firmware
         uses: actions/upload-artifact@v3
